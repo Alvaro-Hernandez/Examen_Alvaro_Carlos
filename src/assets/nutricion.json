@@ -1,0 +1,245 @@
+{
+    "nutritionTips": [
+      {
+        "id": 1,
+        "title": "Aumenta el consumo de frutas y verduras",
+        "content": "Incorpora una mayor variedad de frutas y verduras en tu dieta diaria. Son una excelente fuente de vitaminas, minerales y antioxidantes.",
+        "image": "https://acortar.link/kMBfFL"
+      },
+      {
+        "id": 2,
+        "title": "Bebe suficiente agua",
+        "content": "El agua es esencial para mantenerse hidratado. Asegúrate de beber al menos 8 vasos de agua al día.",
+        "image": "https://acortar.link/54Wr4D"
+      },
+      {
+        "id": 3,
+        "title": "Incluye proteínas magras en tus comidas",
+        "content": "Las proteínas magras como pollo, pavo, pescado, huevos y legumbres son importantes para la construcción y reparación muscular.",
+        "image": "https://acortar.link/hj0BlG"
+      },
+      {
+        "id": 4,
+        "title": "Consume grasas saludables",
+        "content": "Agrega fuentes de grasas saludables a tu dieta, como aguacate, nueces, semillas y aceite de oliva. Son esenciales para el buen funcionamiento del cuerpo.",
+        "image": "https://acortar.link/qkKQMY"
+      },
+      {
+        "id": 5,
+        "title": "Reduce el consumo de alimentos procesados",
+        "content": "Los alimentos procesados suelen ser altos en sodio, grasas saturadas y azúcares añadidos. Opta por alimentos frescos y naturales en su lugar.",
+        "image": "https://acortar.link/LNI1EF"
+      },
+      {
+        "id": 6,
+        "title": "Limita el consumo de azúcar",
+        "content": "El exceso de azúcar puede contribuir al aumento de peso y problemas de salud. Lee las etiquetas de los alimentos y evita los productos con alto contenido de azúcar.",
+        "image": "https://acortar.link/Dxwzsf"
+      },
+      {
+        "id": 7,
+        "title": "Controla el tamaño de las porciones",
+        "content": "Mantén un equilibrio adecuado y controla el tamaño de las porciones para evitar comer en exceso. Escucha las señales de tu cuerpo de saciedad.",
+        "image": "https://acortar.link/ZEdXIn"
+      },
+      {
+        "id": 8,
+        "title": "Incluye granos enteros en tu dieta",
+        "content": "Los granos enteros como el arroz integral, la avena y el pan integral son ricos en fibra y nutrientes. Ayudan a mantener la sensación de saciedad y una buena digestión.",
+        "image": "https://acortar.link/ovffBC"
+      },
+      {
+        "id": 9,
+        "title": "Come despacio y mastica bien los alimentos",
+        "content": "Comer despacio y masticar bien los alimentos facilita la digestión y ayuda a controlar la ingesta de alimentos.",
+        "image": "https://acortar.link/cVVR5S"
+      },
+      {
+        "id": 10,
+        "title": "Evita las bebidas azucaradas",
+        "content": "Las bebidas azucaradas como los refrescos y jugos comerciales suelen ser altas en calorías y azúcares. Opta por agua, té o infusiones sin azúcar.",
+        "image": "https://acortar.link/QxFMia"
+      },
+      {
+        "id": 11,
+        "title": "Incluye alimentos ricos en calcio",
+        "content": "Los alimentos ricos en calcio como los productos lácteos, el brócoli y las almendras son importantes para mantener huesos y dientes fuertes.",
+        "image": "https://acortar.link/CmrSwh"
+      },
+      {
+        "id": 12,
+        "title": "Agrega especias y hierbas a tus comidas",
+        "content": "Las especias y hierbas no solo agregan sabor a tus comidas, sino que también pueden tener propiedades antioxidantes y antiinflamatorias.",
+        "image": "https://acortar.link/6vma2Q"
+      },
+      {
+        "id": 13,
+        "title": "Consume pescado graso",
+        "content": "El pescado graso como el salmón, la trucha y el atún son ricos en ácidos grasos omega-3, que son beneficiosos para la salud del corazón.",
+        "image": "https://acortar.link/LQjSZr"
+      },
+      {
+        "id": 14,
+        "title": "Planifica tus comidas con anticipación",
+        "content": "Planificar tus comidas con anticipación te ayuda a tomar decisiones más saludables y evita recurrir a opciones rápidas y poco saludables.",
+        "image": "https://acortar.link/kbbYAU"
+      },
+      {
+        "id": 15,
+        "title": "Evita las dietas extremas",
+        "content": "Las dietas extremas y restrictivas suelen ser insostenibles a largo plazo. En lugar de eso, opta por un enfoque equilibrado y moderado.",
+        "image": "https://acortar.link/eG1Pah"
+      },
+      {
+        "id": 16,
+        "title": "Incluye alimentos fermentados en tu dieta",
+        "content": "Los alimentos fermentados como el yogur, el chucrut y el kéfir contienen probióticos que promueven una buena salud intestinal.",
+        "image": "https://acortar.link/gDxmRe"
+      },
+      {
+        "id": 17,
+        "title": "Come en platos más pequeños",
+        "content": "Comer en platos más pequeños puede ayudarte a controlar las porciones y evitar comer en exceso.",
+        "image": "https://acortar.link/xrC7Xe"
+      },
+      {
+        "id": 18,
+        "title": "Disfruta de tus comidas sin distracciones",
+        "content": "Evita comer frente a la televisión o el teléfono. Presta atención a tus comidas y disfrútalas plenamente.",
+        "image": "https://acortar.link/lSDDiG"
+      },
+      {
+        "id": 19,
+        "title": "Consume alimentos ricos en fibra",
+        "content": "La fibra dietética ayuda a mantener un sistema digestivo saludable y promueve la sensación de saciedad. Encuéntrala en frutas, verduras, legumbres y granos enteros.",
+        "image": "https://acortar.link/mEwtBz"
+      },
+      {
+        "id": 20,
+        "title": "Limita el consumo de alimentos fritos",
+        "content": "Los alimentos fritos suelen ser altos en calorías y grasas poco saludables. Opta por métodos de cocción más saludables como asar, hornear o cocinar al vapor.",
+        "image": "https://acortar.link/nMhHrT"
+      },
+      {
+        "id": 21,
+        "title": "Incluye nueces y semillas en tu dieta",
+        "content": "Las nueces y semillas son una excelente fuente de grasas saludables, proteínas, fibra y otros nutrientes esenciales.",
+        "image": "https://acortar.link/xK26u2"
+      },
+      {
+        "id": 22,
+        "title": "Controla el consumo de alimentos procesados",
+        "content": "Los alimentos procesados a menudo contienen aditivos, conservantes y grasas poco saludables. Opta por alimentos frescos y naturales en su lugar.",
+        "image": "https://acortar.link/dYojCR"
+      },
+      {
+        "id": 23,
+        "title": "Evita las grasas trans",
+        "content": "Evita las grasas trans, ya que pueden aumentar el colesterol malo en la sangre y aumentar el riesgo de enfermedades cardíacas. Las grasas trans se encuentran en alimentos procesados, fritos y horneados como galletas, pasteles y papas fritas. Opta por grasas saludables como aceite de oliva, aguacate y frutos secos en su lugar.",
+        "image": "https://acortar.link/tgTHI0"
+      },
+      {
+        "id": 24,
+        "title": "Come alimentos ricos en antioxidantes",
+        "content": "Los antioxidantes presentes en frutas y verduras ayudan a combatir el estrés oxidativo y promueven una buena salud en general.",
+        "image": "https://acortar.link/aDygPo"
+      },
+      {
+        "id": 25,
+        "title": "Incluye legumbres en tu dieta",
+        "content": "Las legumbres como los frijoles, las lentejas y los garbanzos son una excelente fuente de proteínas vegetales y fibra dietética.",
+        "image": "https://acortar.link/Mn9OmF"
+      },
+      {
+        "id": 26,
+        "title": "Reduce el consumo de alimentos procesados",
+        "content": "Los alimentos procesados suelen contener altas cantidades de azúcares añadidos, grasas saturadas y sodio. Opta por alimentos frescos y naturales.",
+        "image": "https://acortar.link/KFj4tC"
+      },
+      {
+        "id": 27,
+        "title": "Incluye alimentos ricos en hierro en tu dieta",
+        "content": "El hierro es esencial para transportar oxígeno en el cuerpo. Encuéntralo en alimentos como carne roja, espinacas y legumbres.",
+        "image": "https://acortar.link/gD905T"
+      },
+      {
+        "id": 28,
+        "title": "Limita el consumo de alimentos con alto contenido de sodio",
+        "content": "El exceso de sodio puede aumentar la presión arterial y aumentar el riesgo de enfermedades cardiovasculares. Lee las etiquetas de los alimentos y elige opciones bajas en sodio.",
+        "image": "https://acortar.link/miJnB2"
+      },
+      {
+        "id": 29,
+        "title": "Agrega color a tu plato",
+        "content": "Los alimentos de colores vivos suelen ser ricos en nutrientes. Intenta incluir una variedad de colores en tus comidas para obtener una amplia gama de vitaminas y minerales.",
+        "image": "https://acortar.link/gmmBJn"
+      },
+      {
+        "id": 30,
+        "title": "Come con moderación",
+        "content": "Disfruta de tus comidas con moderación y presta atención a las señales de saciedad de tu cuerpo. Evita comer en exceso.",
+        "image": "https://acortar.link/SdtHrT"
+      },
+      {
+        "id": 31,
+        "title": "Evita las bebidas alcohólicas en exceso",
+        "content": "El consumo excesivo de alcohol puede tener efectos negativos en la salud. Si decides beber, hazlo con moderación y responsabilidad.",
+        "image": "https://acortar.link/5fMkiM"
+      },
+      {
+        "id": 32,
+        "title": "Incluye alimentos ricos en vitamina C",
+        "content": "La vitamina C es importante para el sistema inmunológico y la salud de la piel. Encuéntrala en alimentos como cítricos, kiwi y pimientos.",
+        "image": "https://acortar.link/xN9Bgb"
+      },
+      {
+        "id": 33,
+        "title": "Disfruta de tus comidas sin culpa",
+        "content": "No te sientas culpable por disfrutar de tus comidas favoritas de vez en cuando. La moderación y el equilibrio son clave.",
+        "image": "https://acortar.link/yhIMlo"
+      },
+      {
+        "id": 34,
+        "title": "Evita los alimentos con alto contenido de grasas saturadas",
+        "content": "Las grasas saturadas pueden elevar el colesterol y aumentar el riesgo de enfermedades cardíacas. Opta por grasas saludables en su lugar.",
+        "image": "https://acortar.link/zgf8a7"
+      },
+      {
+        "id": 35,
+        "title": "Incluye alimentos ricos en vitamina D",
+        "content": "La vitamina D es importante para la salud ósea y el sistema inmunológico. Encuéntrala en alimentos como pescados grasos y productos lácteos fortificados.",
+        "image": "https://acortar.link/rlE8s0"
+      },
+      {
+        "id": 36,
+        "title": "Cocina en casa más seguido",
+        "content": "Cocinar en casa te permite tener un mayor control sobre los ingredientes y las preparaciones de tus comidas. Además, es una forma divertida de experimentar con nuevos sabores.",
+        "image": "https://acortar.link/1d3XGg"
+      },
+      {
+        "id": 37,
+        "title": "Incluye alimentos ricos en vitamina A",
+        "content": "La vitamina A es esencial para la salud ocular, la piel y el sistema inmunológico. Encuéntrala en alimentos como zanahorias, batatas y espinacas.",
+        "image": "https://acortar.link/c99f8N"
+      },
+      {
+        "id": 38,
+        "title": "Controla el consumo de alimentos con alto contenido de colesterol",
+        "content": "El colesterol en exceso puede aumentar el riesgo de enfermedades cardíacas. Limita los alimentos ricos en colesterol, como carnes grasas y productos lácteos enteros.",
+        "image": "https://acortar.link/nPama7"
+      },
+      {
+        "id": 39,
+        "title": "Incluye alimentos ricos en vitamina E",
+        "content": "La vitamina E es un antioxidante que ayuda a proteger las células del daño. Encuéntrala en alimentos como nueces, semillas y aceites vegetales.",
+        "image": "https://acortar.link/x2vs2U"
+      },
+      {
+        "id": 40,
+        "title": "Duerme lo suficiente",
+        "content": "El sueño adecuado es importante para mantener un equilibrio en el cuerpo y promover una buena salud en general. Intenta dormir de 7 a 8 horas cada noche.",
+        "image": "https://acortar.link/Ft0C9b"
+      }
+    ]
+  }
+  
