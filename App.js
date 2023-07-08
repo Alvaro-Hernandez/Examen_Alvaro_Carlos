@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import SplashScreen from './src/Views/SplashScreen';
-import AppNavigator from './src/Navigation/appNavigator';
+import AppNavigator from './src/Navigation/AppNavigation';
 const App = () => {
   const [isSplashFinished, setIsSplashFinished] = useState(false);
 
