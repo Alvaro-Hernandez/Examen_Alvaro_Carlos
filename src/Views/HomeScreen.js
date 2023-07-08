@@ -1,31 +1,22 @@
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {ScrollView, StyleSheet} from 'react-native';
+import RutinaCard from '../Components/CardComponents';
+import rutinasData from '../assets/rutinas.json';
 
 const HomeScreen = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Bienvenido a la pantalla principal</Text>
-      <Text style={styles.subtitle}>
-        Aquí puedes agregar el contenido que desees
-      </Text>
-    </View>
+    <ScrollView style={styles.container}>
+      {rutinasData.rutinas.map((rutina, index) => (
+        <RutinaCard key={index} rutina={rutina} />
+      ))}
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 16,
-  },
-  subtitle: {
-    fontSize: 18,
-    color: 'gray',
+    backgroundColor: '#222',
   },
 });
 
