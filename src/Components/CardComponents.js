@@ -1,7 +1,20 @@
-import React from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import React, {useState, useContext} from 'react';
+import {View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native';
+import {ProgresoContext} from '../Context/ProgressContext';
 
 const RutinaCard = ({rutina}) => {
+  const {
+    rutinasCompletadas,
+    setRutinasCompletadas,
+    puntosTotales,
+    setPuntosTotales,
+  } = useContext(ProgresoContext);
+  const [isButtonActive, setButtonActive] = useState(true);
+  const guardarPuntos = () => {
+    setPuntosTotales(puntosTotales + rutina.puntos);
+    setRutinasCompletadas([...rutinasCompletadas, rutina.nombre]);
+    setButtonActive(false);
+  };
   return (
     <View style={styles.card}>
       <Text style={styles.title}>{rutina.nombre}</Text>
@@ -21,6 +34,14 @@ const RutinaCard = ({rutina}) => {
           <Text style={styles.text}>{ejercicio.descripcion}</Text>
         </View>
       ))}
+      <TouchableOpacity
+        style={isButtonActive ? styles.buttonActive : styles.buttonInactive}
+        onPress={guardarPuntos}
+        disabled={!isButtonActive}>
+        <Text style={isButtonActive ? styles.textActive : styles.textInactive}>
+          {isButtonActive ? 'Rutina Terminada' : 'Puntos guardados'}
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -54,6 +75,26 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 200,
     marginVertical: 10,
+  },
+  buttonActive: {
+    backgroundColor: '#00D3A0',
+    padding: 10,
+    borderRadius: 20,
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  buttonInactive: {
+    backgroundColor: '#858585',
+    padding: 10,
+    borderRadius: 20,
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  textActive: {
+    color: '#fff',
+  },
+  textInactive: {
+    color: '#fff',
   },
 });
 
