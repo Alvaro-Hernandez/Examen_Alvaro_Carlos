@@ -3,23 +3,24 @@ import {View, Text, StyleSheet, FlatList} from 'react-native';
 import {ProgresoContext} from '../Context/ProgressContext';
 
 const ProgressScreen = () => {
+  const {container, title, text, itemContainer, itemText} = styles;
   const {rutinasCompletadas, puntosTotales} = useContext(ProgresoContext);
 
   const renderItem = ({item}) => (
-    <View style={styles.itemContainer}>
-      <Text style={styles.itemText}>{item}</Text>
+    <View style={itemContainer}>
+      <Text style={itemText}>{item}</Text>
     </View>
   );
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>✅Aqui tienes tu progreso: </Text>
+    <View style={container}>
+      <Text style={title}>✅Aqui tienes tu progreso: </Text>
       {puntosTotales > 0 ? (
-        <Text style={styles.text}>👀Total de Puntos: {puntosTotales}</Text>
+        <Text style={text}>👀Total de Puntos: {puntosTotales}</Text>
       ) : (
-        <Text style={styles.text}>Aún no has ganado ningún punto 😑</Text>
+        <Text style={text}>Aún no has ganado ningún punto 😑</Text>
       )}
-      <Text style={styles.text}>💪🏼Rutinas Completadas:</Text>
+      <Text style={text}>💪🏼Rutinas Completadas:</Text>
       {rutinasCompletadas.length > 0 ? (
         <FlatList
           data={rutinasCompletadas}
@@ -27,7 +28,7 @@ const ProgressScreen = () => {
           keyExtractor={(item, index) => index.toString()}
         />
       ) : (
-        <Text style={styles.text}>Aún no has completado ninguna rutina 😑</Text>
+        <Text style={text}>Aún no has completado ninguna rutina 😑</Text>
       )}
     </View>
   );
