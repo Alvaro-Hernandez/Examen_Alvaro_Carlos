@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {
   View,
   Text,
@@ -7,19 +7,35 @@ import {
   TouchableOpacity,
   Image,
 } from 'react-native';
-import {useFocusEffect} from '@react-navigation/native';
-import nutricion from '../assets/nutricion.json';
+import {useFocusEffect} from '@react-navigation/native'; // Importamos el hook useFocusEffect para manejar el enfoque de la pantalla
+import nutricion from '../assets/nutricion.json'; // Importamos el archivo JSON de los consejos de nutrición
 
 const NutritionScreen = ({navigation}) => {
-  const [consejosAleatorios, setConsejosAleatorios] = useState([]);
-  const [consejoSeleccionado, setConsejoSeleccionado] = useState(null);
-
+  const [consejosAleatorios, setConsejosAleatorios] = useState([]); // Estado para almacenar los consejos de nutrición aleatorios
+  const [consejoSeleccionado, setConsejoSeleccionado] = useState(null); // Estado para almacenar el consejo de nutrición seleccionado
+  // Desestructuramos los estilos del objeto styles
+  const {
+    contenedor,
+    tituloPantalla,
+    contenedorLista,
+    tarjeta,
+    imagenConsejo,
+    titulo,
+    contenido,
+    consejoSeleccionadoContainer,
+    imagenConsejoSeleccionado,
+    consejoSeleccionadoTitulo,
+    consejoSeleccionadoContenido,
+    botonVolver,
+    botonVolverTexto,
+  } = styles;
+  // Hook useEffect para obtener los consejos de nutrición aleatorios al cargar la pantalla
   useFocusEffect(
     React.useCallback(() => {
       obtenerConsejosAleatorios();
     }, []),
   );
-
+  // Función para obtener los consejos de nutrición aleatorios
   const obtenerConsejosAleatorios = () => {
     const consejosDesordenados = [...nutricion.nutritionTips];
     const consejosAleatorios = [];
@@ -38,62 +54,60 @@ const NutritionScreen = ({navigation}) => {
     setConsejosAleatorios(consejosAleatorios);
     setConsejoSeleccionado(null);
   };
-
+  // Función para seleccionar un consejo de nutrición
   const seleccionarConsejo = consejo => {
     setConsejoSeleccionado(consejo);
   };
-
+  // Función para volver a la lista de consejos de nutrición
   const volverAConsejos = () => {
     setConsejoSeleccionado(null);
   };
-
+  // Función para renderizar cada tarjeta de consejo de nutrición
   const renderizarTarjetaConsejo = ({item}) => (
     <TouchableOpacity onPress={() => seleccionarConsejo(item)}>
-      <View style={styles.tarjeta}>
+      <View style={tarjeta}>
         {item.image && (
-          <Image source={{uri: item.image}} style={styles.imagenConsejo} />
+          <Image source={{uri: item.image}} style={imagenConsejo} />
         )}
-        <Text style={styles.titulo}>{item.title}</Text>
-        <Text style={styles.contenido}>{item.content}</Text>
+        <Text style={titulo}>{item.title}</Text>
+        <Text style={contenido}>{item.content}</Text>
       </View>
     </TouchableOpacity>
   );
 
   return (
-    <View style={styles.contenedor}>
-      <Text style={styles.tituloPantalla}>Consejos de Nutrición</Text>
+    <View style={contenedor}>
+      <Text style={tituloPantalla}>Consejos de Nutrición</Text>
       {!consejoSeleccionado ? (
         <FlatList
           data={consejosAleatorios}
           renderItem={renderizarTarjetaConsejo}
           keyExtractor={(item, index) => index.toString()}
-          contentContainerStyle={styles.contenedorLista}
+          contentContainerStyle={contenedorLista}
         />
       ) : (
-        <View style={styles.consejoSeleccionadoContainer}>
+        <View style={consejoSeleccionadoContainer}>
           {consejoSeleccionado.image && (
             <Image
               source={{uri: consejoSeleccionado.image}}
-              style={styles.imagenConsejoSeleccionado}
+              style={imagenConsejoSeleccionado}
             />
           )}
-          <Text style={styles.consejoSeleccionadoTitulo}>
+          <Text style={consejoSeleccionadoTitulo}>
             {consejoSeleccionado.title}
           </Text>
-          <Text style={styles.consejoSeleccionadoContenido}>
+          <Text style={consejoSeleccionadoContenido}>
             {consejoSeleccionado.content}
           </Text>
-          <TouchableOpacity
-            onPress={volverAConsejos}
-            style={styles.botonVolver}>
-            <Text style={styles.botonVolverTexto}>Volver a los consejos</Text>
+          <TouchableOpacity onPress={volverAConsejos} style={botonVolver}>
+            <Text style={botonVolverTexto}>Volver a los consejos</Text>
           </TouchableOpacity>
         </View>
       )}
     </View>
   );
 };
-
+// Estilos
 const styles = StyleSheet.create({
   contenedor: {
     flex: 1,
