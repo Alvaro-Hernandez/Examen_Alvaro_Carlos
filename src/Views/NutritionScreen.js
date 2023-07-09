@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {
   View,
   Text,
@@ -15,14 +15,17 @@ const NutritionScreen = ({navigation}) => {
   const [consejoSeleccionado, setConsejoSeleccionado] = useState(null);
 
   useFocusEffect(
-    React.useCallback(() => {
-      obtenerConsejosAleatorios();
-    }, []),
+    React.useCallback(
+      () => {
+        obtenerConsejosAleatorios();
+      },
+      /* eslint-disable react-hooks/exhaustive-deps */
+      [],
+    ),
   );
 
   const obtenerConsejosAleatorios = () => {
     const consejosDesordenados = [...nutricion.nutritionTips];
-    const consejosAleatorios = [];
 
     while (consejosAleatorios.length < 4 && consejosDesordenados.length > 0) {
       const indiceAleatorio = Math.floor(
@@ -61,7 +64,7 @@ const NutritionScreen = ({navigation}) => {
 
   return (
     <View style={styles.contenedor}>
-      <Text style={styles.tituloPantalla}>Consejos de Nutrición</Text>
+      <Text style={styles.tituloPantalla}>🥕Consejos de Nutrición</Text>
       {!consejoSeleccionado ? (
         <FlatList
           data={consejosAleatorios}
