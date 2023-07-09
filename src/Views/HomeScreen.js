@@ -4,8 +4,9 @@ import RutinaCard from '../Components/CardComponents';
 import rutinasData from '../assets/rutinas.json';
 
 const HomeScreen = () => {
+  const {container} = styles;
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView style={container}>
       {rutinasData.rutinas.map((rutina, index) => (
         <RutinaCard key={index} rutina={rutina} />
       ))}
