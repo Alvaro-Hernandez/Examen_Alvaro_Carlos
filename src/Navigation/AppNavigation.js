@@ -8,12 +8,28 @@ const Tab = createBottomTabNavigator();
 
 function AppNavigator() {
   return (
-    <Tab.Navigator>
-      <Tab.Screen name="Home" component={HomeScreen} />
+    <Tab.Navigator screenOptions={tabScreenOptions}>
+      <Tab.Screen name="FitnessPro" component={HomeScreen} />
       <Tab.Screen name="Progress" component={ProgressScreen} />
       <Tab.Screen name="Nutrition" component={NutritionScreen} />
     </Tab.Navigator>
   );
 }
+
+const tabScreenOptions = ({route}) => ({
+  headerStyle: {
+    backgroundColor: '#00D3A0',
+  },
+  headerTintColor: '#fff',
+  tabBarActiveTintColor: '#fff',
+  tabBarInactiveTintColor: '#222',
+  tabBarLabelStyle: {
+    fontSize: 12,
+  },
+  tabBarStyle: {
+    display: 'flex',
+    backgroundColor: '#00D3A0',
+  },
+});
 
 export default AppNavigator;
