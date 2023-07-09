@@ -4,8 +4,9 @@ import LottieView from 'lottie-react-native';
 import animationSplash from '../assets/animationSplash.json'; // Ruta al archivo JSON de animación de Lottie
 
 const SplashScreen = ({navigation}) => {
+  const {container} = styles;
   return (
-    <View style={styles.container}>
+    <View style={container}>
       <LottieView
         source={animationSplash}
         autoPlay
