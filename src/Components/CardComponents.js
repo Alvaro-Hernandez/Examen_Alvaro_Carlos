@@ -4,6 +4,17 @@ import {ProgresoContext} from '../Context/ProgressContext';
 
 const RutinaCard = ({rutina}) => {
   const {
+    card,
+    subCard,
+    title,
+    text,
+    image,
+    buttonActive,
+    buttonInactive,
+    textActive,
+    textInactive,
+  } = styles;
+  const {
     rutinasCompletadas,
     setRutinasCompletadas,
     puntosTotales,
@@ -16,29 +27,27 @@ const RutinaCard = ({rutina}) => {
     setButtonActive(false);
   };
   return (
-    <View style={styles.card}>
-      <Text style={styles.title}>{rutina.nombre}</Text>
+    <View style={card}>
+      <Text style={title}>{rutina.nombre}</Text>
       <Text style={styles.text}>Puntos: {rutina.puntos}</Text>
       {rutina.ejercicios.map((ejercicio, index) => (
-        <View key={index} style={styles.subCard}>
-          <Text style={styles.title}>{ejercicio.nombre}</Text>
-          <Text style={styles.text}>Series: {ejercicio.series}</Text>
-          <Text style={styles.text}>
-            Repeticiones: {ejercicio.repeticiones}
-          </Text>
+        <View key={index} style={subCard}>
+          <Text style={title}>{ejercicio.nombre}</Text>
+          <Text style={text}>Series: {ejercicio.series}</Text>
+          <Text style={text}>Repeticiones: {ejercicio.repeticiones}</Text>
           <Image
             source={{uri: ejercicio.imagen}}
-            style={styles.image}
+            style={image}
             resizeMode="cover"
           />
-          <Text style={styles.text}>{ejercicio.descripcion}</Text>
+          <Text style={text}>{ejercicio.descripcion}</Text>
         </View>
       ))}
       <TouchableOpacity
-        style={isButtonActive ? styles.buttonActive : styles.buttonInactive}
+        style={isButtonActive ? buttonActive : buttonInactive}
         onPress={guardarPuntos}
         disabled={!isButtonActive}>
-        <Text style={isButtonActive ? styles.textActive : styles.textInactive}>
+        <Text style={isButtonActive ? textActive : textInactive}>
           {isButtonActive ? 'Rutina Terminada' : 'Puntos guardados'}
         </Text>
       </TouchableOpacity>
