@@ -1,12 +1,12 @@
 {
   "rutinas": [
     {
-      "nombre": "Rutina de Espalda",
-      "puntos": 100,
+      "nombre": "🔥Rutina de Espalda",
+      "puntos": 150,
       "ejercicios": [
         {
-          "nombre": "Peso muerto",
-          "imagen": "https://url_a_la_imagen_de_peso_muerto.com",
+          "nombre": "Peso muerto☠️",
+          "imagen": "https://acortar.link/1546IP",
           "descripcion": "Ponte de pie con los pies a la anchura de los hombros y las pesas en las manos...",
           "series": 3,
           "repeticiones": 10
@@ -14,12 +14,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Tríceps",
-      "puntos": 100,
+      "nombre": "🥐Rutina de Tríceps",
+      "puntos": 250,
       "ejercicios": [
         {
-          "nombre": "Press francés",
-          "imagen": "https://url_a_la_imagen_de_press_frances.com",
+          "nombre": "Press francés🥐",
+          "imagen": "https://acortar.link/cujs3m",
           "descripcion": "Acuéstate en un banco plano con una mancuerna en cada mano...",
           "series": 3,
           "repeticiones": 10
@@ -27,12 +27,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Piernas",
-      "puntos": 100,
+      "nombre": "🪑Rutina de Piernas",
+      "puntos": 300,
       "ejercicios": [
         {
-          "nombre": "Sentadillas",
-          "imagen": "https://url_a_la_imagen_de_sentadillas.com",
+          "nombre": "Sentadillas🪑",
+          "imagen": "https://acortar.link/I0uj9L",
           "descripcion": "Párate con los pies a la anchura de los hombros, y luego baja tu cuerpo...",
           "series": 3,
           "repeticiones": 10
@@ -40,12 +40,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Pecho",
-      "puntos": 100,
+      "nombre": "🏧Rutina de Pecho",
+      "puntos": 120,
       "ejercicios": [
         {
-          "nombre": "Press de banca",
-          "imagen": "https://url_a_la_imagen_de_press_de_banca.com",
+          "nombre": "Press de banca🏧",
+          "imagen": "https://acortar.link/I2o3mQ",
           "descripcion": "Acuéstate en un banco con los pies firmemente apoyados en el suelo...",
           "series": 3,
           "repeticiones": 10
@@ -53,12 +53,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Hombros",
-      "puntos": 100,
+      "nombre": "💪🏼Rutina de Hombros",
+      "puntos": 90,
       "ejercicios": [
         {
-          "nombre": "Press de hombros",
-          "imagen": "https://url_a_la_imagen_de_press_de_hombros.com",
+          "nombre": "Press de hombros💪🏼",
+          "imagen": "https://acortar.link/ZLAhJ8",
           "descripcion": "Agarra una mancuerna en cada mano y levántalas al nivel de los hombros...",
           "series": 3,
           "repeticiones": 10
@@ -66,12 +66,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Bíceps",
-      "puntos": 100,
+      "nombre": "🤘🏼Rutina de Bíceps",
+      "puntos": 250,
       "ejercicios": [
         {
-          "nombre": "Curl de bíceps",
-          "imagen": "https://url_a_la_imagen_de_curl_de_biceps.com",
+          "nombre": "Curl de bíceps🤘🏼",
+          "imagen": "https://acortar.link/y4nzef",
           "descripcion": "Sostén una mancuerna en cada mano con los brazos extendidos hacia abajo...",
           "series": 3,
           "repeticiones": 10
@@ -79,12 +79,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Abdominales",
-      "puntos": 100,
+      "nombre": "👋🏼Rutina de Abdominales",
+      "puntos": 220,
       "ejercicios": [
         {
-          "nombre": "Crunch abdominal",
-          "imagen": "https://url_a_la_imagen_de_crunch_abdominal.com",
+          "nombre": "Crunch abdominal👋🏼",
+          "imagen": "https://acortar.link/e6c4gO",
           "descripcion": "Acuéstate boca arriba con las rodillas dobladas y los pies en el suelo...",
           "series": 3,
           "repeticiones": 15
@@ -92,19 +92,19 @@
       ]
     },
     {
-      "nombre": "Rutina de Cardio",
-      "puntos": 100,
+      "nombre": "🤸🏼Rutina de Cardio",
+      "puntos": 350,
       "ejercicios": [
         {
-          "nombre": "Correr en el lugar",
-          "imagen": "https://url_a_la_imagen_de_correr_en_el_lugar.com",
+          "nombre": "Correr en el lugar🤸🏼",
+          "imagen": "https://acortar.link/EnT6fY",
           "descripcion": "Párate derecho y empieza a correr en el lugar, levantando las rodillas tan alto como puedas.",
           "series": 1,
           "tiempo": "10 minutos"
         },
         {
           "nombre": "Saltos de tijera",
-          "imagen": "https://url_a_la_imagen_de_saltos_de_tijera.com",
+          "imagen": "https://acortar.link/wuzjs8",
           "descripcion": "Comienza parándote derecho con los pies juntos...",
           "series": 3,
           "repeticiones": 15
@@ -112,12 +112,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Glúteos",
-      "puntos": 100,
+      "nombre": "🥵Rutina de Glúteos",
+      "puntos": 400,
       "ejercicios": [
         {
-          "nombre": "Puente de glúteos",
-          "imagen": "https://url_a_la_imagen_de_puente_de_gluteos.com",
+          "nombre": "Puente de glúteos🥵",
+          "imagen": "https://acortar.link/6wj8W2",
           "descripcion": "Acuéstate boca arriba con las rodillas dobladas y los pies apoyados en el suelo...",
           "series": 3,
           "repeticiones": 10
@@ -125,12 +125,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Antebrazos",
-      "puntos": 100,
+      "nombre": "🧹Rutina de Antebrazos",
+      "puntos": 160,
       "ejercicios": [
         {
-          "nombre": "Curl de antebrazos con barra",
-          "imagen": "https://url_a_la_imagen_de_curl_de_antebrazos_con_barra.com",
+          "nombre": "Curl de antebrazos con barra🧹",
+          "imagen": "https://acortar.link/pSve8R",
           "descripcion": "Sostén una barra con las manos hacia abajo y los brazos extendidos...",
           "series": 3,
           "repeticiones": 15
@@ -138,12 +138,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Cuádriceps",
-      "puntos": 100,
+      "nombre": "🥾Rutina de Cuádriceps",
+      "puntos": 450,
       "ejercicios": [
         {
-          "nombre": "Sentadillas",
-          "imagen": "https://url_a_la_imagen_de_sentadillas.com",
+          "nombre": "Sentadillas🥾",
+          "imagen": "https://acortar.link/c86TZI",
           "descripcion": "Párate con los pies a la anchura de los hombros, y luego baja tu cuerpo...",
           "series": 3,
           "repeticiones": 10
@@ -151,12 +151,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Pantorrillas",
-      "puntos": 100,
+      "nombre": "🛩️Rutina de Pantorrillas",
+      "puntos": 300,
       "ejercicios": [
         {
-          "nombre": "Elevaciones de talones",
-          "imagen": "https://url_a_la_imagen_de_elevaciones_de_talones.com",
+          "nombre": "Elevaciones de talones🛩️",
+          "imagen": "https://acortar.link/3lUfg0",
           "descripcion": "Párate derecho y levanta los talones del suelo hasta que estés de puntillas...",
           "series": 3,
           "repeticiones": 15
@@ -164,12 +164,12 @@
       ]
     },
     {
-      "nombre": "Rutina de Estiramiento",
-      "puntos": 100,
+      "nombre": "🕺🏼Rutina de Estiramiento",
+      "puntos": 520,
       "ejercicios": [
         {
-          "nombre": "Estiramiento de tríceps",
-          "imagen": "https://url_a_la_imagen_de_estiramiento_de_triceps.com",
+          "nombre": "Estiramiento de tríceps🕺🏼",
+          "imagen": "https://acortar.link/p2Kd2X",
           "descripcion": "Levanta un brazo y dobla el codo, llevando la mano hacia la parte posterior de la cabeza...",
           "series": 1,
           "repeticiones": 2,
